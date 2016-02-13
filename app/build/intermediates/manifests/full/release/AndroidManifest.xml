@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.amplonius.Vertretungsplan"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="de.amplonius.Vertretungsplan.gui.FirstPage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="de.amplonius.Vertretungsplan.gui.ShowTable" />
+        <activity android:name="de.amplonius.Vertretungsplan.gui.ShowDetail" />
+        <activity android:name="de.amplonius.Vertretungsplan.gui.About" />
+        <activity android:name="de.amplonius.Vertretungsplan.gui.Help" />
+        <activity android:name="de.amplonius.Vertretungsplan.gui.LoadingPage" />
+        <activity android:name="de.amplonius.Vertretungsplan.gui.settings.Login" />
+        <activity android:name="de.amplonius.Vertretungsplan.gui.settings.Settings" />
+        <activity android:name="de.amplonius.Vertretungsplan.gui.settings.KursMarkierungen" />
+        <activity android:name="de.amplonius.Vertretungsplan.gui.settings.Notification" />
+
+        <service
+            android:name="de.amplonius.Vertretungsplan.notification.CreateNotification"
+            android:enabled="true" />
+        <service
+            android:name="de.amplonius.Vertretungsplan.notification.CreateAlarmManager"
+            android:enabled="true" />
+
+        <receiver
+            android:name="de.amplonius.Vertretungsplan.notification.NotificationReceiver"
+            android:enabled="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

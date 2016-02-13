@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Amplonius Vertretungsplan</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- startpage menu -->
+    <string name="menu_refresh">Aktualisieren</string>
+    <string name="menu_settings">Einstellungen</string>
+    <string name="menu_help">Hilfe</string>
+    <string name="menu_about">About</string>
+    <string name="wait">Vertretungsplan wird geladen&#8230;</string>
+    <string name="klasse">Klasse :</string>
+    <string name="stunde">Stunde :</string>
+    <string name="lehrer">Lehrer :</string>
+    <string name="fach">Fach :</string>
+    <string name="vertreter">Vertreter :</string>
+    <string name="raum">Raum :</string>
+    <string name="bemerkung">Bemerkung :</string>
+    <string name="art">Art :</string>
+
+    <!-- Settings -->
+    <string name="login_text">Login :</string>
+    <string name="login_passwort">Passwort :</string>
+    <string name="login_button">Login!</string>
+    <string name="reset">RESET!</string>
+    <string name="change_login">Login ändern</string>
+    <string name="switch_stufe_ausb_label">Andere Stufen ausblenden</string>
+    <string name="switch_kurse_mark_label">Eigene Kurse markieren</string>
+    <string name="eigene_stufe_label">Eigene Stufe :</string>
+    <string name="speichern">Speichern</string>
+    <string name="add_kurs">Kurs hinzufügen</string>
+    <string name="change_kurse">Kurse Bearbeiten</string>
+    <string name="enable_notification_switch_label">Benachrichtigungen aktivieren</string>
+    <string name="pick_time_label">Uhrzeit:</string>
+    <string name="pick_time_info">(zu der die Benachrichtigung erscheint)</string>
+    <string name="set_time">Festlegen</string>
+    <string name="settings_notification_label">Benachrichtigung bearbeiten</string>
+    <string name="offset">Vertretungen des nächsten Tages</string>
+
+    <!-- Error -->
+    <string name="ShowTableKeinInternet">Keine Internet-Verbindung vorhanden oder die Login-Daten sind nicht korrekt. \n\ Fehler: 0001</string>
+    <string name="EinstellungenOeffnen">Einstellungen öffnen</string>
+    <string name="Erneut">Wiederholen</string>
+
+    <!-- License -->
+    <string name="accept_license">Einverstanden !</string>
+    <string name="license1">Copyright &#169; 2015 Jannik Seuß</string>
+    <string name="license2">Dieser Vertretungsplan ist lediglich eine unverbindliche Information basierend auf den Daten des Online-Vertretungsplans. \n\ Der verbindlich gültige Vertretungsplan ist der in der Schule veröffentlichte.</string>
+    <string name="license2_short">Dieser Vertretungsplan ist lediglich eine unverbindliche Information.</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

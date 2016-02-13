@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Jannik\\StudioProjects\\AmploniusVertretungsplanV3\\app\\build\\intermediates\\res\\merged\\debug\\raw\\hilfe.html",
+        "source": "C:\\Users\\Jannik\\StudioProjects\\AmploniusVertretungsplanV3\\app\\src\\main\\res\\raw\\hilfe.html"
+    },
+    {
+        "merged": "C:\\Users\\Jannik\\StudioProjects\\AmploniusVertretungsplanV3\\app\\build\\intermediates\\res\\merged\\debug\\raw\\settings_notification_help.html",
+        "source": "C:\\Users\\Jannik\\StudioProjects\\AmploniusVertretungsplanV3\\app\\src\\main\\res\\raw\\settings_notification_help.html"
+    },
+    {
+        "merged": "C:\\Users\\Jannik\\StudioProjects\\AmploniusVertretungsplanV3\\app\\build\\intermediates\\res\\merged\\debug\\raw\\settings_login_help.html",
+        "source": "C:\\Users\\Jannik\\StudioProjects\\AmploniusVertretungsplanV3\\app\\src\\main\\res\\raw\\settings_login_help.html"
+    },
+    {
+        "merged": "C:\\Users\\Jannik\\StudioProjects\\AmploniusVertretungsplanV3\\app\\build\\intermediates\\res\\merged\\debug\\raw\\settings_kurse_help.html",
+        "source": "C:\\Users\\Jannik\\StudioProjects\\AmploniusVertretungsplanV3\\app\\src\\main\\res\\raw\\settings_kurse_help.html"
+    }
+]

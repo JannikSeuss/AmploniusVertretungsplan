@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollHorizontally="false"
+        android:singleLine="false"
+        tools:ignore="RtlSymmetry">
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/klasseLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/show_detail_paddingLeft"
+                android:paddingStart="@dimen/show_detail_paddingLeft"
+                android:paddingTop="@dimen/show_detail_paddingTop"
+                android:text="@string/klasse"
+                android:textSize="@dimen/show_detail_textsize" />
+
+            <TextView
+                android:id="@+id/klasse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/show_detail_paddingRight"
+                android:textSize="@dimen/show_detail_textsize_value" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/stundeLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/show_detail_paddingLeft"
+                android:paddingStart="@dimen/show_detail_paddingLeft"
+                android:paddingTop="@dimen/show_detail_paddingTop"
+                android:text="@string/stunde"
+                android:textSize="@dimen/show_detail_textsize" />
+
+            <TextView
+                android:id="@+id/stunde"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/show_detail_paddingRight"
+                android:textSize="@dimen/show_detail_textsize" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/lehrerLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/show_detail_paddingLeft"
+                android:paddingStart="@dimen/show_detail_paddingLeft"
+                android:paddingTop="@dimen/show_detail_paddingTop"
+                android:text="@string/lehrer"
+                android:textSize="@dimen/show_detail_textsize" />
+
+            <TextView
+                android:id="@+id/lehrer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/show_detail_paddingRight"
+                android:textSize="@dimen/show_detail_textsize_value" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/fachLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/show_detail_paddingLeft"
+                android:paddingStart="@dimen/show_detail_paddingLeft"
+                android:paddingTop="@dimen/show_detail_paddingTop"
+                android:text="@string/fach"
+                android:textSize="@dimen/show_detail_textsize" />
+
+            <TextView
+                android:id="@+id/fach"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/show_detail_paddingRight"
+                android:textSize="@dimen/show_detail_textsize_value" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/vertreterLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/show_detail_paddingLeft"
+                android:paddingStart="@dimen/show_detail_paddingLeft"
+                android:paddingTop="@dimen/show_detail_paddingTop"
+                android:text="@string/vertreter"
+                android:textSize="@dimen/show_detail_textsize" />
+
+            <TextView
+                android:id="@+id/vertreter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/show_detail_paddingRight"
+                android:textSize="@dimen/show_detail_textsize_value" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/raumLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/show_detail_paddingLeft"
+                android:paddingStart="@dimen/show_detail_paddingLeft"
+                android:paddingTop="@dimen/show_detail_paddingTop"
+                android:text="@string/raum"
+                android:textSize="@dimen/show_detail_textsize" />
+
+            <TextView
+                android:id="@+id/raum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/show_detail_paddingRight"
+                android:textSize="@dimen/show_detail_textsize_value" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/bemerkungLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/show_detail_paddingLeft"
+                android:paddingRight="@dimen/show_detail_paddingLeft"
+                android:paddingStart="@dimen/show_detail_paddingLeft"
+                android:paddingTop="@dimen/show_detail_paddingTop"
+                android:text="@string/bemerkung"
+                android:textSize="@dimen/show_detail_textsize" />
+        </TableRow>
+
+        <TextView
+            android:id="@+id/bemerkung"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="40dp"
+            android:paddingRight="@dimen/show_detail_paddingRight"
+            android:scrollHorizontally="false"
+            android:singleLine="false"
+            android:textSize="@dimen/show_detail_textsize_value" />
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/artLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/show_detail_paddingLeft"
+                android:paddingStart="@dimen/show_detail_paddingLeft"
+                android:paddingTop="@dimen/show_detail_paddingTop"
+                android:text="@string/art"
+                android:textSize="@dimen/show_detail_textsize" />
+
+            <TextView
+                android:id="@+id/art"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingRight="@dimen/show_detail_paddingRight"
+                android:textSize="@dimen/show_detail_textsize_value" />
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

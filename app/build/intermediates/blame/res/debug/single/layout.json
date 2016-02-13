@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\Jannik\\StudioProjects\\AmploniusVertretungsplanV3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\downloader_init.xml",
+        "source": "C:\\Users\\Jannik\\StudioProjects\\AmploniusVertretungsplanV3\\app\\src\\main\\res\\layout\\downloader_init.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jannik\\StudioProjects\\AmploniusVertretungsplanV3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\settings.xml",
+        "source": "C:\\Users\\Jannik\\StudioProjects\\AmploniusVertretungsplanV3\\app\\src\\main\\res\\layout\\settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jannik\\StudioProjects\\AmploniusVertretungsplanV3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\first_page_layout.xml",
+        "source": "C:\\Users\\Jannik\\StudioProjects\\AmploniusVertretungsplanV3\\app\\src\\main\\res\\layout\\first_page_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jannik\\StudioProjects\\AmploniusVertretungsplanV3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\settings_login.xml",
+        "source": "C:\\Users\\Jannik\\StudioProjects\\AmploniusVertretungsplanV3\\app\\src\\main\\res\\layout\\settings_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jannik\\StudioProjects\\AmploniusVertretungsplanV3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\help_layout.xml",
+        "source": "C:\\Users\\Jannik\\StudioProjects\\AmploniusVertretungsplanV3\\app\\src\\main\\res\\layout\\help_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jannik\\StudioProjects\\AmploniusVertretungsplanV3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\settings_kurs_markierungen.xml",
+        "source": "C:\\Users\\Jannik\\StudioProjects\\AmploniusVertretungsplanV3\\app\\src\\main\\res\\layout\\settings_kurs_markierungen.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jannik\\StudioProjects\\AmploniusVertretungsplanV3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\settings_notification.xml",
+        "source": "C:\\Users\\Jannik\\StudioProjects\\AmploniusVertretungsplanV3\\app\\src\\main\\res\\layout\\settings_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jannik\\StudioProjects\\AmploniusVertretungsplanV3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\show_details.xml",
+        "source": "C:\\Users\\Jannik\\StudioProjects\\AmploniusVertretungsplanV3\\app\\src\\main\\res\\layout\\show_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jannik\\StudioProjects\\AmploniusVertretungsplanV3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\about_layout.xml",
+        "source": "C:\\Users\\Jannik\\StudioProjects\\AmploniusVertretungsplanV3\\app\\src\\main\\res\\layout\\about_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jannik\\StudioProjects\\AmploniusVertretungsplanV3\\app\\build\\intermediates\\res\\merged\\debug\\layout\\show_table.xml",
+        "source": "C:\\Users\\Jannik\\StudioProjects\\AmploniusVertretungsplanV3\\app\\src\\main\\res\\layout\\show_table.xml"
+    }
+]
